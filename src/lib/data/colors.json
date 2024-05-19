@@ -1,0 +1,4812 @@
+{
+    "Device Background": {
+        "Default Light": {
+            "colors": [
+                0.647058823529412,
+                0.647058823529412,
+                0.647058823529412,
+                1.0
+            ],
+            "id": "live_surface_bg"
+        },
+        "Default Dark": {
+            "colors": [
+                0.211764705882353,
+                0.211764705882353,
+                0.211764705882353,
+                1.0
+            ],
+            "id": "live_surface_bg"
+        },
+        "Riparian": {
+            "colors": [
+                0.149019607843137,
+                0.219607843137255,
+                0.247058823529412,
+                1.0
+            ],
+            "id": "live_surface_bg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.309803921568627,
+                0.309803921568627,
+                0.309803921568627,
+                1.0
+            ],
+            "id": "live_surface_bg"
+        },
+        "24 Carat": {
+            "colors": [
+                0.203921568627451,
+                0.203921568627451,
+                0.203921568627451,
+                1.0
+            ],
+            "id": "live_surface_bg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.215686274509804,
+                0.172549019607843,
+                0.427450980392157,
+                1.0
+            ],
+            "id": "live_surface_bg"
+        },
+        "Immaterial": {
+            "colors": [
+                0.184313725490196,
+                0.192156862745098,
+                0.219607843137255,
+                1.0
+            ],
+            "id": "live_surface_bg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.572549019607843,
+                0.572549019607843,
+                0.572549019607843,
+                1.0
+            ],
+            "id": "live_surface_bg"
+        }
+    },
+    "Control Off": {
+        "Default Light": {
+            "colors": [
+                0.811764705882353,
+                0.811764705882353,
+                0.811764705882353,
+                1.0
+            ],
+            "id": "live_control_bg"
+        },
+        "Default Dark": {
+            "colors": [
+                0.117647058823529,
+                0.117647058823529,
+                0.117647058823529,
+                1.0
+            ],
+            "id": "live_control_bg"
+        },
+        "Riparian": {
+            "colors": [
+                0.031372549019608,
+                0.098039215686275,
+                0.12156862745098,
+                1.0
+            ],
+            "id": "live_control_bg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.258823529411765,
+                0.258823529411765,
+                0.258823529411765,
+                1.0
+            ],
+            "id": "live_control_bg"
+        },
+        "24 Carat": {
+            "colors": [
+                0.105882352941176,
+                0.105882352941176,
+                0.105882352941176,
+                1.0
+            ],
+            "id": "live_control_bg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.101960784313725,
+                0.062745098039216,
+                0.215686274509804,
+                1.0
+            ],
+            "id": "live_control_bg"
+        },
+        "Immaterial": {
+            "colors": [
+                0.094117647058824,
+                0.098039215686275,
+                0.117647058823529,
+                1.0
+            ],
+            "id": "live_control_bg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.776470588235294,
+                0.776470588235294,
+                0.776470588235294,
+                1.0
+            ],
+            "id": "live_control_bg"
+        }
+    },
+    "Text Background": {
+        "Default Light": {
+            "colors": [
+                0.874509803921569,
+                0.874509803921569,
+                0.874509803921569,
+                1.0
+            ],
+            "id": "live_control_text_bg"
+        },
+        "Default Dark": {
+            "colors": [
+                0.141176470588235,
+                0.141176470588235,
+                0.141176470588235,
+                1.0
+            ],
+            "id": "live_control_text_bg"
+        },
+        "Riparian": {
+            "colors": [
+                0.058823529411765,
+                0.125490196078431,
+                0.149019607843137,
+                1.0
+            ],
+            "id": "live_control_text_bg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.192156862745098,
+                0.192156862745098,
+                0.192156862745098,
+                1.0
+            ],
+            "id": "live_control_text_bg"
+        },
+        "24 Carat": {
+            "colors": [
+                0.133333333333333,
+                0.133333333333333,
+                0.133333333333333,
+                1.0
+            ],
+            "id": "live_control_text_bg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.133333333333333,
+                0.090196078431373,
+                0.274509803921569,
+                1.0
+            ],
+            "id": "live_control_text_bg"
+        },
+        "Immaterial": {
+            "colors": [
+                0.113725490196078,
+                0.12156862745098,
+                0.137254901960784,
+                1.0
+            ],
+            "id": "live_control_text_bg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.854901960784314,
+                0.854901960784314,
+                0.854901960784314,
+                1.0
+            ],
+            "id": "live_control_text_bg"
+        }
+    },
+    "Text / Icon": {
+        "Default Light": {
+            "colors": [
+                0.070588235294118,
+                0.070588235294118,
+                0.070588235294118,
+                1.0
+            ],
+            "id": "live_control_fg"
+        },
+        "Default Dark": {
+            "colors": [
+                0.709803921568627,
+                0.709803921568627,
+                0.709803921568627,
+                1.0
+            ],
+            "id": "live_control_fg"
+        },
+        "Riparian": {
+            "colors": [
+                0.83921568627451,
+                0.803921568627451,
+                0.658823529411765,
+                1.0
+            ],
+            "id": "live_control_fg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.87843137254902,
+                0.87843137254902,
+                0.87843137254902,
+                1.0
+            ],
+            "id": "live_control_fg"
+        },
+        "24 Carat": {
+            "colors": [
+                0.882352941176471,
+                0.776470588235294,
+                0.611764705882353,
+                1.0
+            ],
+            "id": "live_control_fg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.898039215686275,
+                0.901960784313726,
+                0.909803921568627,
+                1.0
+            ],
+            "id": "live_control_fg"
+        },
+        "Immaterial": {
+            "colors": [
+                0.796078431372549,
+                0.796078431372549,
+                0.803921568627451,
+                1.0
+            ],
+            "id": "live_control_fg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "id": "live_control_fg"
+        }
+    },
+    "Text / Icon On": {
+        "Default Light": {
+            "colors": [
+                0.070588235294118,
+                0.070588235294118,
+                0.070588235294118,
+                1.0
+            ],
+            "id": "live_control_text_selection"
+        },
+        "Default Dark": {
+            "colors": [
+                0.027450980392157,
+                0.027450980392157,
+                0.027450980392157,
+                1.0
+            ],
+            "id": "live_control_text_selection"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.003921568627451,
+                0.007843137254902,
+                1.0
+            ],
+            "id": "live_control_text_selection"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.031372549019608,
+                0.031372549019608,
+                0.031372549019608,
+                1.0
+            ],
+            "id": "live_control_text_selection"
+        },
+        "24 Carat": {
+            "colors": [
+                0.015686274509804,
+                0.015686274509804,
+                0.015686274509804,
+                1.0
+            ],
+            "id": "live_control_text_selection"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.0,
+                0.0,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_control_text_selection"
+        },
+        "Immaterial": {
+            "colors": [
+                0.015686274509804,
+                0.019607843137255,
+                0.023529411764706,
+                1.0
+            ],
+            "id": "live_control_text_selection"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "id": "live_control_text_selection"
+        }
+    },
+    "Text / Icon Off": {
+        "Default Light": {
+            "colors": [
+                0.070588235294118,
+                0.070588235294118,
+                0.070588235294118,
+                1.0
+            ],
+            "id": "live_control_fg_off"
+        },
+        "Default Dark": {
+            "colors": [
+                0.709803921568627,
+                0.709803921568627,
+                0.709803921568627,
+                1.0
+            ],
+            "id": "live_control_fg_off"
+        },
+        "Riparian": {
+            "colors": [
+                0.83921568627451,
+                0.803921568627451,
+                0.658823529411765,
+                1.0
+            ],
+            "id": "live_control_fg_off"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.87843137254902,
+                0.87843137254902,
+                0.87843137254902,
+                1.0
+            ],
+            "id": "live_control_fg_off"
+        },
+        "24 Carat": {
+            "colors": [
+                0.882352941176471,
+                0.776470588235294,
+                0.611764705882353,
+                1.0
+            ],
+            "id": "live_control_fg_off"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.898039215686275,
+                0.901960784313726,
+                0.909803921568627,
+                1.0
+            ],
+            "id": "live_control_fg_off"
+        },
+        "Immaterial": {
+            "colors": [
+                0.796078431372549,
+                0.796078431372549,
+                0.803921568627451,
+                1.0
+            ],
+            "id": "live_control_fg_off"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "id": "live_control_fg_off"
+        }
+    },
+    "Control On": {
+        "Default Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_control_selection"
+        },
+        "Default Dark": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_control_selection"
+        },
+        "Riparian": {
+            "colors": [
+                1.0,
+                0.776470588235294,
+                0.345098039215686,
+                1.0
+            ],
+            "id": "live_control_selection"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                1.0,
+                0.611764705882353,
+                0.223529411764706,
+                1.0
+            ],
+            "id": "live_control_selection"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_control_selection"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.709803921568627,
+                1.0,
+                0.388235294117647,
+                1.0
+            ],
+            "id": "live_control_selection"
+        },
+        "Immaterial": {
+            "colors": [
+                1.0,
+                0.568627450980392,
+                0.764705882352941,
+                1.0
+            ],
+            "id": "live_control_selection"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_control_selection"
+        }
+    },
+    "Control On (Inactive)": {
+        "Default Light": {
+            "colors": [
+                0.945098039215686,
+                0.945098039215686,
+                0.945098039215686,
+                1.0
+            ],
+            "id": "live_control_zombie"
+        },
+        "Default Dark": {
+            "colors": [
+                0.458823529411765,
+                0.458823529411765,
+                0.458823529411765,
+                1.0
+            ],
+            "id": "live_control_zombie"
+        },
+        "Riparian": {
+            "colors": [
+                0.509803921568627,
+                0.568627450980392,
+                0.56078431372549,
+                1.0
+            ],
+            "id": "live_control_zombie"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.654901960784314,
+                0.654901960784314,
+                0.654901960784314,
+                1.0
+            ],
+            "id": "live_control_zombie"
+        },
+        "24 Carat": {
+            "colors": [
+                0.549019607843137,
+                0.498039215686275,
+                0.423529411764706,
+                1.0
+            ],
+            "id": "live_control_zombie"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.674509803921569,
+                0.729411764705882,
+                0.827450980392157,
+                1.0
+            ],
+            "id": "live_control_zombie"
+        },
+        "Immaterial": {
+            "colors": [
+                0.490196078431373,
+                0.501960784313725,
+                0.533333333333333,
+                1.0
+            ],
+            "id": "live_control_zombie"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.933333333333333,
+                0.933333333333333,
+                0.933333333333333,
+                1.0
+            ],
+            "id": "live_control_zombie"
+        }
+    },
+    "Control On Variant": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_value_arc"
+        },
+        "Default Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_value_arc"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.8,
+                0.717647058823529,
+                1.0
+            ],
+            "id": "live_value_arc"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_value_arc"
+        },
+        "24 Carat": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_value_arc"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.768627450980392,
+                0.129411764705882,
+                1.0
+            ],
+            "id": "live_value_arc"
+        },
+        "Immaterial": {
+            "colors": [
+                0.27843137254902,
+                0.886274509803922,
+                0.956862745098039,
+                1.0
+            ],
+            "id": "live_value_arc"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_value_arc"
+        }
+    },
+    "Slider Range Value": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.792156862745098,
+                0.858823529411765,
+                1.0
+            ],
+            "id": "live_value_bar"
+        },
+        "Default Dark": {
+            "colors": [
+                0.0,
+                0.450980392156863,
+                0.513725490196078,
+                1.0
+            ],
+            "id": "live_value_bar"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.474509803921569,
+                0.411764705882353,
+                1.0
+            ],
+            "id": "live_value_bar"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.0,
+                0.450980392156863,
+                0.513725490196078,
+                1.0
+            ],
+            "id": "live_value_bar"
+        },
+        "24 Carat": {
+            "colors": [
+                0.0,
+                0.450980392156863,
+                0.513725490196078,
+                1.0
+            ],
+            "id": "live_value_bar"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.603921568627451,
+                0.423529411764706,
+                0.0,
+                1.0
+            ],
+            "id": "live_value_bar"
+        },
+        "Immaterial": {
+            "colors": [
+                0.0,
+                0.517647058823529,
+                0.576470588235294,
+                1.0
+            ],
+            "id": "live_value_bar"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.792156862745098,
+                0.858823529411765,
+                1.0
+            ],
+            "id": "live_value_bar"
+        }
+    },
+    "Automation": {
+        "Default Light": {
+            "colors": [
+                0.917647058823529,
+                0.235294117647059,
+                0.235294117647059,
+                1.0
+            ],
+            "id": "live_active_automation"
+        },
+        "Default Dark": {
+            "colors": [
+                1.0,
+                0.301960784313725,
+                0.27843137254902,
+                1.0
+            ],
+            "id": "live_active_automation"
+        },
+        "Riparian": {
+            "colors": [
+                1.0,
+                0.341176470588235,
+                0.309803921568627,
+                1.0
+            ],
+            "id": "live_active_automation"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                1.0,
+                0.301960784313725,
+                0.27843137254902,
+                1.0
+            ],
+            "id": "live_active_automation"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.301960784313725,
+                0.27843137254902,
+                1.0
+            ],
+            "id": "live_active_automation"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.309803921568627,
+                0.925490196078431,
+                0.749019607843137,
+                1.0
+            ],
+            "id": "live_active_automation"
+        },
+        "Immaterial": {
+            "colors": [
+                1.0,
+                0.568627450980392,
+                0.764705882352941,
+                1.0
+            ],
+            "id": "live_active_automation"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.917647058823529,
+                0.235294117647059,
+                0.235294117647059,
+                1.0
+            ],
+            "id": "live_active_automation"
+        }
+    },
+    "Automation Override": {
+        "Default Light": {
+            "colors": [
+                0.349019607843137,
+                0.349019607843137,
+                0.349019607843137,
+                1.0
+            ],
+            "id": "live_inactive_automation"
+        },
+        "Default Dark": {
+            "colors": [
+                0.392156862745098,
+                0.392156862745098,
+                0.392156862745098,
+                1.0
+            ],
+            "id": "live_inactive_automation"
+        },
+        "Riparian": {
+            "colors": [
+                0.403921568627451,
+                0.403921568627451,
+                0.403921568627451,
+                1.0
+            ],
+            "id": "live_inactive_automation"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.392156862745098,
+                0.392156862745098,
+                0.392156862745098,
+                1.0
+            ],
+            "id": "live_inactive_automation"
+        },
+        "24 Carat": {
+            "colors": [
+                0.392156862745098,
+                0.392156862745098,
+                0.392156862745098,
+                1.0
+            ],
+            "id": "live_inactive_automation"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.545098039215686,
+                0.545098039215686,
+                0.545098039215686,
+                1.0
+            ],
+            "id": "live_inactive_automation"
+        },
+        "Immaterial": {
+            "colors": [
+                0.490196078431373,
+                0.490196078431373,
+                0.490196078431373,
+                1.0
+            ],
+            "id": "live_inactive_automation"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.349019607843137,
+                0.349019607843137,
+                0.349019607843137,
+                1.0
+            ],
+            "id": "live_inactive_automation"
+        }
+    },
+    "Mapping Macro": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.854901960784314,
+                0.282352941176471,
+                1.0
+            ],
+            "id": "live_macro_assignment"
+        },
+        "Default Dark": {
+            "colors": [
+                0.0,
+                0.854901960784314,
+                0.282352941176471,
+                1.0
+            ],
+            "id": "live_macro_assignment"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.854901960784314,
+                0.282352941176471,
+                1.0
+            ],
+            "id": "live_macro_assignment"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.0,
+                0.854901960784314,
+                0.282352941176471,
+                1.0
+            ],
+            "id": "live_macro_assignment"
+        },
+        "24 Carat": {
+            "colors": [
+                0.0,
+                0.854901960784314,
+                0.282352941176471,
+                1.0
+            ],
+            "id": "live_macro_assignment"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.0,
+                0.854901960784314,
+                0.282352941176471,
+                1.0
+            ],
+            "id": "live_macro_assignment"
+        },
+        "Immaterial": {
+            "colors": [
+                0.0,
+                0.854901960784314,
+                0.282352941176471,
+                1.0
+            ],
+            "id": "live_macro_assignment"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.854901960784314,
+                0.282352941176471,
+                1.0
+            ],
+            "id": "live_macro_assignment"
+        }
+    },
+    "Control Border": {
+        "Default Light": {
+            "colors": [
+                0.309803921568627,
+                0.309803921568627,
+                0.309803921568627,
+                1.0
+            ],
+            "id": "live_contrast_frame"
+        },
+        "Default Dark": {
+            "colors": [
+                0.066666666666667,
+                0.066666666666667,
+                0.066666666666667,
+                1.0
+            ],
+            "id": "live_contrast_frame"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.03921568627451,
+                0.058823529411765,
+                1.0
+            ],
+            "id": "live_contrast_frame"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.082352941176471,
+                0.082352941176471,
+                0.082352941176471,
+                1.0
+            ],
+            "id": "live_contrast_frame"
+        },
+        "24 Carat": {
+            "colors": [
+                0.050980392156863,
+                0.050980392156863,
+                0.050980392156863,
+                1.0
+            ],
+            "id": "live_contrast_frame"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.023529411764706,
+                0.011764705882353,
+                0.074509803921569,
+                1.0
+            ],
+            "id": "live_contrast_frame"
+        },
+        "Immaterial": {
+            "colors": [
+                0.047058823529412,
+                0.050980392156863,
+                0.062745098039216,
+                1.0
+            ],
+            "id": "live_contrast_frame"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.219607843137255,
+                0.219607843137255,
+                0.219607843137255,
+                1.0
+            ],
+            "id": "live_contrast_frame"
+        }
+    },
+    "Mapping Key": {
+        "Default Light": {
+            "colors": [
+                1.0,
+                0.392156862745098,
+                0.0,
+                1.0
+            ],
+            "id": "live_key_assignment"
+        },
+        "Default Dark": {
+            "colors": [
+                1.0,
+                0.392156862745098,
+                0.0,
+                1.0
+            ],
+            "id": "live_key_assignment"
+        },
+        "Riparian": {
+            "colors": [
+                1.0,
+                0.392156862745098,
+                0.0,
+                1.0
+            ],
+            "id": "live_key_assignment"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                1.0,
+                0.392156862745098,
+                0.0,
+                1.0
+            ],
+            "id": "live_key_assignment"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.392156862745098,
+                0.0,
+                1.0
+            ],
+            "id": "live_key_assignment"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.392156862745098,
+                0.0,
+                1.0
+            ],
+            "id": "live_key_assignment"
+        },
+        "Immaterial": {
+            "colors": [
+                1.0,
+                0.392156862745098,
+                0.0,
+                1.0
+            ],
+            "id": "live_key_assignment"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                1.0,
+                0.392156862745098,
+                0.0,
+                1.0
+            ],
+            "id": "live_key_assignment"
+        }
+    },
+    "Mapping Midi": {
+        "Default Light": {
+            "colors": [
+                0.250980392156863,
+                0.203921568627451,
+                0.937254901960784,
+                1.0
+            ],
+            "id": "live_midi_assignment"
+        },
+        "Default Dark": {
+            "colors": [
+                0.250980392156863,
+                0.203921568627451,
+                0.937254901960784,
+                1.0
+            ],
+            "id": "live_midi_assignment"
+        },
+        "Riparian": {
+            "colors": [
+                0.250980392156863,
+                0.203921568627451,
+                0.937254901960784,
+                1.0
+            ],
+            "id": "live_midi_assignment"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.250980392156863,
+                0.203921568627451,
+                0.937254901960784,
+                1.0
+            ],
+            "id": "live_midi_assignment"
+        },
+        "24 Carat": {
+            "colors": [
+                0.250980392156863,
+                0.203921568627451,
+                0.937254901960784,
+                1.0
+            ],
+            "id": "live_midi_assignment"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.250980392156863,
+                0.203921568627451,
+                0.937254901960784,
+                1.0
+            ],
+            "id": "live_midi_assignment"
+        },
+        "Immaterial": {
+            "colors": [
+                0.250980392156863,
+                0.203921568627451,
+                0.937254901960784,
+                1.0
+            ],
+            "id": "live_midi_assignment"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.250980392156863,
+                0.203921568627451,
+                0.937254901960784,
+                1.0
+            ],
+            "id": "live_midi_assignment"
+        }
+    },
+    "Mapping Highlight": {
+        "Default Light": {
+            "colors": [
+                0.737254901960784,
+                0.737254901960784,
+                0.737254901960784,
+                1.0
+            ],
+            "id": "live_assignment_text_bg"
+        },
+        "Default Dark": {
+            "colors": [
+                0.274509803921569,
+                0.274509803921569,
+                0.274509803921569,
+                1.0
+            ],
+            "id": "live_assignment_text_bg"
+        },
+        "Riparian": {
+            "colors": [
+                0.23921568627451,
+                0.309803921568627,
+                0.333333333333333,
+                1.0
+            ],
+            "id": "live_assignment_text_bg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.407843137254902,
+                0.407843137254902,
+                0.407843137254902,
+                1.0
+            ],
+            "id": "live_assignment_text_bg"
+        },
+        "24 Carat": {
+            "colors": [
+                0.27843137254902,
+                0.274509803921569,
+                0.270588235294118,
+                1.0
+            ],
+            "id": "live_assignment_text_bg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.290196078431373,
+                0.27843137254902,
+                0.588235294117647,
+                1.0
+            ],
+            "id": "live_assignment_text_bg"
+        },
+        "Immaterial": {
+            "colors": [
+                0.250980392156863,
+                0.262745098039216,
+                0.294117647058824,
+                1.0
+            ],
+            "id": "live_assignment_text_bg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.686274509803922,
+                0.686274509803922,
+                0.686274509803922,
+                1.0
+            ],
+            "id": "live_assignment_text_bg"
+        }
+    },
+    "Control Range Off (Inactive)": {
+        "Default Light": {
+            "colors": [
+                0.388235294117647,
+                0.388235294117647,
+                0.388235294117647,
+                1.0
+            ],
+            "id": "live_control_fg_zombie"
+        },
+        "Default Dark": {
+            "colors": [
+                0.388235294117647,
+                0.388235294117647,
+                0.388235294117647,
+                1.0
+            ],
+            "id": "live_control_fg_zombie"
+        },
+        "Riparian": {
+            "colors": [
+                0.411764705882353,
+                0.47843137254902,
+                0.486274509803922,
+                1.0
+            ],
+            "id": "live_control_fg_zombie"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.564705882352941,
+                0.564705882352941,
+                0.564705882352941,
+                1.0
+            ],
+            "id": "live_control_fg_zombie"
+        },
+        "24 Carat": {
+            "colors": [
+                0.419607843137255,
+                0.4,
+                0.372549019607843,
+                1.0
+            ],
+            "id": "live_control_fg_zombie"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.447058823529412,
+                0.549019607843137,
+                0.764705882352941,
+                1.0
+            ],
+            "id": "live_control_fg_zombie"
+        },
+        "Immaterial": {
+            "colors": [
+                0.396078431372549,
+                0.407843137254902,
+                0.443137254901961,
+                1.0
+            ],
+            "id": "live_control_fg_zombie"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.286274509803922,
+                0.286274509803922,
+                0.286274509803922,
+                1.0
+            ],
+            "id": "live_control_fg_zombie"
+        }
+    },
+    "Control Range On (Inactive)": {
+        "Default Light": {
+            "colors": [
+                0.945098039215686,
+                0.945098039215686,
+                0.945098039215686,
+                1.0
+            ],
+            "id": "live_value_arc_zombie"
+        },
+        "Default Dark": {
+            "colors": [
+                0.458823529411765,
+                0.458823529411765,
+                0.458823529411765,
+                1.0
+            ],
+            "id": "live_value_arc_zombie"
+        },
+        "Riparian": {
+            "colors": [
+                0.509803921568627,
+                0.568627450980392,
+                0.56078431372549,
+                1.0
+            ],
+            "id": "live_value_arc_zombie"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.654901960784314,
+                0.654901960784314,
+                0.654901960784314,
+                1.0
+            ],
+            "id": "live_value_arc_zombie"
+        },
+        "24 Carat": {
+            "colors": [
+                0.549019607843137,
+                0.498039215686275,
+                0.423529411764706,
+                1.0
+            ],
+            "id": "live_value_arc_zombie"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.674509803921569,
+                0.729411764705882,
+                0.827450980392157,
+                1.0
+            ],
+            "id": "live_value_arc_zombie"
+        },
+        "Immaterial": {
+            "colors": [
+                0.490196078431373,
+                0.501960784313725,
+                0.533333333333333,
+                1.0
+            ],
+            "id": "live_value_arc_zombie"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.933333333333333,
+                0.933333333333333,
+                0.933333333333333,
+                1.0
+            ],
+            "id": "live_value_arc_zombie"
+        }
+    },
+    "Numbox Triangle": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_numbox_triangle"
+        },
+        "Default Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_numbox_triangle"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.8,
+                0.717647058823529,
+                1.0
+            ],
+            "id": "live_numbox_triangle"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_numbox_triangle"
+        },
+        "24 Carat": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_numbox_triangle"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.768627450980392,
+                0.129411764705882,
+                1.0
+            ],
+            "id": "live_numbox_triangle"
+        },
+        "Immaterial": {
+            "colors": [
+                0.27843137254902,
+                0.886274509803922,
+                0.956862745098039,
+                1.0
+            ],
+            "id": "live_numbox_triangle"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_numbox_triangle"
+        }
+    },
+    "Control Header": {
+        "Default Light": {
+            "colors": [
+                0.737254901960784,
+                0.737254901960784,
+                0.737254901960784,
+                1.0
+            ],
+            "id": "live_macro_title"
+        },
+        "Default Dark": {
+            "colors": [
+                0.274509803921569,
+                0.274509803921569,
+                0.274509803921569,
+                1.0
+            ],
+            "id": "live_macro_title"
+        },
+        "Riparian": {
+            "colors": [
+                0.23921568627451,
+                0.309803921568627,
+                0.333333333333333,
+                1.0
+            ],
+            "id": "live_macro_title"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.407843137254902,
+                0.407843137254902,
+                0.407843137254902,
+                1.0
+            ],
+            "id": "live_macro_title"
+        },
+        "24 Carat": {
+            "colors": [
+                0.27843137254902,
+                0.274509803921569,
+                0.270588235294118,
+                1.0
+            ],
+            "id": "live_macro_title"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.290196078431373,
+                0.27843137254902,
+                0.588235294117647,
+                1.0
+            ],
+            "id": "live_macro_title"
+        },
+        "Immaterial": {
+            "colors": [
+                0.250980392156863,
+                0.262745098039216,
+                0.294117647058824,
+                1.0
+            ],
+            "id": "live_macro_title"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.686274509803922,
+                0.686274509803922,
+                0.686274509803922,
+                1.0
+            ],
+            "id": "live_macro_title"
+        }
+    },
+    "Control Highlight": {
+        "Default Light": {
+            "colors": [
+                0.803921568627451,
+                0.972549019607843,
+                1.0,
+                1.0
+            ],
+            "id": "live_selection"
+        },
+        "Default Dark": {
+            "colors": [
+                0.690196078431373,
+                0.866666666666667,
+                0.92156862745098,
+                1.0
+            ],
+            "id": "live_selection"
+        },
+        "Riparian": {
+            "colors": [
+                0.705882352941176,
+                0.925490196078431,
+                0.803921568627451,
+                1.0
+            ],
+            "id": "live_selection"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.588235294117647,
+                0.831372549019608,
+                0.909803921568627,
+                1.0
+            ],
+            "id": "live_selection"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.866666666666667,
+                0.623529411764706,
+                1.0
+            ],
+            "id": "live_selection"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.474509803921569,
+                0.788235294117647,
+                1.0,
+                1.0
+            ],
+            "id": "live_selection"
+        },
+        "Immaterial": {
+            "colors": [
+                0.733333333333333,
+                0.858823529411765,
+                0.890196078431372,
+                1.0
+            ],
+            "id": "live_selection"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.803921568627451,
+                0.972549019607843,
+                1.0,
+                1.0
+            ],
+            "id": "live_selection"
+        }
+    },
+    "LED Background": {
+        "Default Light": {
+            "colors": [
+                0.356862745098039,
+                0.356862745098039,
+                0.356862745098039,
+                1.0
+            ],
+            "id": "live_led_bg"
+        },
+        "Default Dark": {
+            "colors": [
+                0.094117647058824,
+                0.094117647058824,
+                0.094117647058824,
+                1.0
+            ],
+            "id": "live_led_bg"
+        },
+        "Riparian": {
+            "colors": [
+                0.011764705882353,
+                0.066666666666667,
+                0.090196078431373,
+                1.0
+            ],
+            "id": "live_led_bg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.12156862745098,
+                0.12156862745098,
+                0.12156862745098,
+                1.0
+            ],
+            "id": "live_led_bg"
+        },
+        "24 Carat": {
+            "colors": [
+                0.07843137254902,
+                0.07843137254902,
+                0.07843137254902,
+                1.0
+            ],
+            "id": "live_led_bg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.062745098039216,
+                0.031372549019608,
+                0.149019607843137,
+                1.0
+            ],
+            "id": "live_led_bg"
+        },
+        "Immaterial": {
+            "colors": [
+                0.070588235294118,
+                0.07843137254902,
+                0.090196078431373,
+                1.0
+            ],
+            "id": "live_led_bg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.258823529411765,
+                0.258823529411765,
+                0.258823529411765,
+                1.0
+            ],
+            "id": "live_led_bg"
+        }
+    },
+    "Control Background": {
+        "Default Light": {
+            "colors": [
+                0.141176470588235,
+                0.141176470588235,
+                0.141176470588235,
+                1.0
+            ],
+            "id": "live_meter_bg"
+        },
+        "Default Dark": {
+            "colors": [
+                0.094117647058824,
+                0.094117647058824,
+                0.094117647058824,
+                1.0
+            ],
+            "id": "live_meter_bg"
+        },
+        "Riparian": {
+            "colors": [
+                0.011764705882353,
+                0.066666666666667,
+                0.090196078431373,
+                1.0
+            ],
+            "id": "live_meter_bg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.12156862745098,
+                0.12156862745098,
+                0.12156862745098,
+                1.0
+            ],
+            "id": "live_meter_bg"
+        },
+        "24 Carat": {
+            "colors": [
+                0.07843137254902,
+                0.07843137254902,
+                0.07843137254902,
+                1.0
+            ],
+            "id": "live_meter_bg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.062745098039216,
+                0.031372549019608,
+                0.149019607843137,
+                1.0
+            ],
+            "id": "live_meter_bg"
+        },
+        "Immaterial": {
+            "colors": [
+                0.070588235294118,
+                0.07843137254902,
+                0.090196078431373,
+                1.0
+            ],
+            "id": "live_meter_bg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.113725490196078,
+                0.113725490196078,
+                0.113725490196078,
+                1.0
+            ],
+            "id": "live_meter_bg"
+        }
+    },
+    "Line": {
+        "Default Light": {
+            "colors": [
+                0.431372549019608,
+                0.431372549019608,
+                0.431372549019608,
+                1.0
+            ],
+            "id": "live_surface_frame"
+        },
+        "Default Dark": {
+            "colors": [
+                0.141176470588235,
+                0.141176470588235,
+                0.141176470588235,
+                1.0
+            ],
+            "id": "live_surface_frame"
+        },
+        "Riparian": {
+            "colors": [
+                0.058823529411765,
+                0.125490196078431,
+                0.149019607843137,
+                1.0
+            ],
+            "id": "live_surface_frame"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.164705882352941,
+                0.164705882352941,
+                0.164705882352941,
+                1.0
+            ],
+            "id": "live_surface_frame"
+        },
+        "24 Carat": {
+            "colors": [
+                0.133333333333333,
+                0.133333333333333,
+                0.133333333333333,
+                1.0
+            ],
+            "id": "live_surface_frame"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.133333333333333,
+                0.090196078431373,
+                0.274509803921569,
+                1.0
+            ],
+            "id": "live_surface_frame"
+        },
+        "Immaterial": {
+            "colors": [
+                0.113725490196078,
+                0.12156862745098,
+                0.137254901960784,
+                1.0
+            ],
+            "id": "live_surface_frame"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.337254901960784,
+                0.337254901960784,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_surface_frame"
+        }
+    },
+    "Text / Icon Off (Inactive)": {
+        "Default Light": {
+            "colors": [
+                0.431372549019608,
+                0.431372549019608,
+                0.431372549019608,
+                1.0
+            ],
+            "id": "live_control_fg_off_zombie"
+        },
+        "Default Dark": {
+            "colors": [
+                0.411764705882353,
+                0.411764705882353,
+                0.411764705882353,
+                1.0
+            ],
+            "id": "live_control_fg_off_zombie"
+        },
+        "Riparian": {
+            "colors": [
+                0.447058823529412,
+                0.509803921568627,
+                0.513725490196078,
+                1.0
+            ],
+            "id": "live_control_fg_off_zombie"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.6,
+                0.6,
+                0.6,
+                1.0
+            ],
+            "id": "live_control_fg_off_zombie"
+        },
+        "24 Carat": {
+            "colors": [
+                0.447058823529412,
+                0.423529411764706,
+                0.388235294117647,
+                1.0
+            ],
+            "id": "live_control_fg_off_zombie"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.52156862745098,
+                0.611764705882353,
+                0.788235294117647,
+                1.0
+            ],
+            "id": "live_control_fg_off_zombie"
+        },
+        "Immaterial": {
+            "colors": [
+                0.427450980392157,
+                0.43921568627451,
+                0.474509803921569,
+                1.0
+            ],
+            "id": "live_control_fg_off_zombie"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.337254901960784,
+                0.337254901960784,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_control_fg_off_zombie"
+        }
+    },
+    "Text / Icon On (Inactive)": {
+        "Default Light": {
+            "colors": [
+                0.431372549019608,
+                0.431372549019608,
+                0.431372549019608,
+                1.0
+            ],
+            "id": "live_control_text_zombie"
+        },
+        "Default Dark": {
+            "colors": [
+                0.458823529411765,
+                0.458823529411765,
+                0.458823529411765,
+                1.0
+            ],
+            "id": "live_control_text_zombie"
+        },
+        "Riparian": {
+            "colors": [
+                0.509803921568627,
+                0.568627450980392,
+                0.56078431372549,
+                1.0
+            ],
+            "id": "live_control_text_zombie"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.654901960784314,
+                0.654901960784314,
+                0.654901960784314,
+                1.0
+            ],
+            "id": "live_control_text_zombie"
+        },
+        "24 Carat": {
+            "colors": [
+                0.549019607843137,
+                0.498039215686275,
+                0.423529411764706,
+                1.0
+            ],
+            "id": "live_control_text_zombie"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.674509803921569,
+                0.729411764705882,
+                0.827450980392157,
+                1.0
+            ],
+            "id": "live_control_text_zombie"
+        },
+        "Immaterial": {
+            "colors": [
+                0.490196078431373,
+                0.501960784313725,
+                0.533333333333333,
+                1.0
+            ],
+            "id": "live_control_text_zombie"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.337254901960784,
+                0.337254901960784,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_control_text_zombie"
+        }
+    },
+    "Control Selection Frame": {
+        "Default Light": {
+            "colors": [
+                0.309803921568627,
+                0.309803921568627,
+                0.309803921568627,
+                1.0
+            ],
+            "id": "live_focus_frame"
+        },
+        "Default Dark": {
+            "colors": [
+                0.568627450980392,
+                0.568627450980392,
+                0.568627450980392,
+                1.0
+            ],
+            "id": "live_focus_frame"
+        },
+        "Riparian": {
+            "colors": [
+                0.690196078431373,
+                0.709803921568627,
+                0.63921568627451,
+                1.0
+            ],
+            "id": "live_focus_frame"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.776470588235294,
+                0.776470588235294,
+                0.776470588235294,
+                1.0
+            ],
+            "id": "live_focus_frame"
+        },
+        "24 Carat": {
+            "colors": [
+                0.788235294117647,
+                0.670588235294118,
+                0.486274509803922,
+                1.0
+            ],
+            "id": "live_focus_frame"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.823529411764706,
+                0.843137254901961,
+                0.874509803921569,
+                1.0
+            ],
+            "id": "live_focus_frame"
+        },
+        "Immaterial": {
+            "colors": [
+                0.631372549019608,
+                0.63921568627451,
+                0.662745098039216,
+                1.0
+            ],
+            "id": "live_focus_frame"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.219607843137255,
+                0.219607843137255,
+                0.219607843137255,
+                1.0
+            ],
+            "id": "live_focus_frame"
+        }
+    },
+    "Control Triangle": {
+        "Default Light": {
+            "colors": [
+                0.141176470588235,
+                0.141176470588235,
+                0.141176470588235,
+                1.0
+            ],
+            "id": "live_dial_triangle"
+        },
+        "Default Dark": {
+            "colors": [
+                0.066666666666667,
+                0.066666666666667,
+                0.066666666666667,
+                1.0
+            ],
+            "id": "live_dial_triangle"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.03921568627451,
+                0.058823529411765,
+                1.0
+            ],
+            "id": "live_dial_triangle"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.082352941176471,
+                0.082352941176471,
+                0.082352941176471,
+                1.0
+            ],
+            "id": "live_dial_triangle"
+        },
+        "24 Carat": {
+            "colors": [
+                0.050980392156863,
+                0.050980392156863,
+                0.050980392156863,
+                1.0
+            ],
+            "id": "live_dial_triangle"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.023529411764706,
+                0.011764705882353,
+                0.074509803921569,
+                1.0
+            ],
+            "id": "live_dial_triangle"
+        },
+        "Immaterial": {
+            "colors": [
+                0.047058823529412,
+                0.050980392156863,
+                0.062745098039216,
+                1.0
+            ],
+            "id": "live_dial_triangle"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.113725490196078,
+                0.113725490196078,
+                0.113725490196078,
+                1.0
+            ],
+            "id": "live_dial_triangle"
+        }
+    },
+    "Control Range On": {
+        "Default Light": {
+            "colors": [
+                0.141176470588235,
+                0.141176470588235,
+                0.141176470588235,
+                1.0
+            ],
+            "id": "live_dial_fg"
+        },
+        "Default Dark": {
+            "colors": [
+                0.066666666666667,
+                0.066666666666667,
+                0.066666666666667,
+                1.0
+            ],
+            "id": "live_dial_fg"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.03921568627451,
+                0.058823529411765,
+                1.0
+            ],
+            "id": "live_dial_fg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.082352941176471,
+                0.082352941176471,
+                0.082352941176471,
+                1.0
+            ],
+            "id": "live_dial_fg"
+        },
+        "24 Carat": {
+            "colors": [
+                0.050980392156863,
+                0.050980392156863,
+                0.050980392156863,
+                1.0
+            ],
+            "id": "live_dial_fg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.023529411764706,
+                0.011764705882353,
+                0.074509803921569,
+                1.0
+            ],
+            "id": "live_dial_fg"
+        },
+        "Immaterial": {
+            "colors": [
+                0.047058823529412,
+                0.050980392156863,
+                0.062745098039216,
+                1.0
+            ],
+            "id": "live_dial_fg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.113725490196078,
+                0.113725490196078,
+                0.113725490196078,
+                1.0
+            ],
+            "id": "live_dial_fg"
+        }
+    },
+    "Control Needle On": {
+        "Default Light": {
+            "colors": [
+                0.141176470588235,
+                0.141176470588235,
+                0.141176470588235,
+                1.0
+            ],
+            "id": "live_dial_needle"
+        },
+        "Default Dark": {
+            "colors": [
+                0.094117647058824,
+                0.094117647058824,
+                0.094117647058824,
+                1.0
+            ],
+            "id": "live_dial_needle"
+        },
+        "Riparian": {
+            "colors": [
+                0.011764705882353,
+                0.066666666666667,
+                0.090196078431373,
+                1.0
+            ],
+            "id": "live_dial_needle"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.12156862745098,
+                0.12156862745098,
+                0.12156862745098,
+                1.0
+            ],
+            "id": "live_dial_needle"
+        },
+        "24 Carat": {
+            "colors": [
+                0.07843137254902,
+                0.07843137254902,
+                0.07843137254902,
+                1.0
+            ],
+            "id": "live_dial_needle"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.062745098039216,
+                0.031372549019608,
+                0.149019607843137,
+                1.0
+            ],
+            "id": "live_dial_needle"
+        },
+        "Immaterial": {
+            "colors": [
+                0.070588235294118,
+                0.07843137254902,
+                0.090196078431373,
+                1.0
+            ],
+            "id": "live_dial_needle"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.113725490196078,
+                0.113725490196078,
+                0.113725490196078,
+                1.0
+            ],
+            "id": "live_dial_needle"
+        }
+    },
+    "Control Range Off": {
+        "Default Light": {
+            "colors": [
+                0.431372549019608,
+                0.431372549019608,
+                0.431372549019608,
+                1.0
+            ],
+            "id": "live_dial_fg_zombie"
+        },
+        "Default Dark": {
+            "colors": [
+                0.164705882352941,
+                0.164705882352941,
+                0.164705882352941,
+                1.0
+            ],
+            "id": "live_dial_fg_zombie"
+        },
+        "Riparian": {
+            "colors": [
+                0.086274509803922,
+                0.156862745098039,
+                0.180392156862745,
+                1.0
+            ],
+            "id": "live_dial_fg_zombie"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.223529411764706,
+                0.223529411764706,
+                0.223529411764706,
+                1.0
+            ],
+            "id": "live_dial_fg_zombie"
+        },
+        "24 Carat": {
+            "colors": [
+                0.156862745098039,
+                0.156862745098039,
+                0.156862745098039,
+                1.0
+            ],
+            "id": "live_dial_fg_zombie"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.164705882352941,
+                0.117647058823529,
+                0.329411764705882,
+                1.0
+            ],
+            "id": "live_dial_fg_zombie"
+        },
+        "Immaterial": {
+            "colors": [
+                0.133333333333333,
+                0.141176470588235,
+                0.164705882352941,
+                1.0
+            ],
+            "id": "live_dial_fg_zombie"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.337254901960784,
+                0.337254901960784,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_dial_fg_zombie"
+        }
+    },
+    "Control Needle Off": {
+        "Default Light": {
+            "colors": [
+                0.431372549019608,
+                0.431372549019608,
+                0.431372549019608,
+                1.0
+            ],
+            "id": "live_dial_needle_zombie"
+        },
+        "Default Dark": {
+            "colors": [
+                0.164705882352941,
+                0.164705882352941,
+                0.164705882352941,
+                1.0
+            ],
+            "id": "live_dial_needle_zombie"
+        },
+        "Riparian": {
+            "colors": [
+                0.086274509803922,
+                0.156862745098039,
+                0.180392156862745,
+                1.0
+            ],
+            "id": "live_dial_needle_zombie"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.223529411764706,
+                0.223529411764706,
+                0.223529411764706,
+                1.0
+            ],
+            "id": "live_dial_needle_zombie"
+        },
+        "24 Carat": {
+            "colors": [
+                0.156862745098039,
+                0.156862745098039,
+                0.156862745098039,
+                1.0
+            ],
+            "id": "live_dial_needle_zombie"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.164705882352941,
+                0.117647058823529,
+                0.329411764705882,
+                1.0
+            ],
+            "id": "live_dial_needle_zombie"
+        },
+        "Immaterial": {
+            "colors": [
+                0.133333333333333,
+                0.141176470588235,
+                0.164705882352941,
+                1.0
+            ],
+            "id": "live_dial_needle_zombie"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.337254901960784,
+                0.337254901960784,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_dial_needle_zombie"
+        }
+    },
+    "Control Handle": {
+        "Default Light": {
+            "colors": [
+                0.811764705882353,
+                0.811764705882353,
+                0.811764705882353,
+                1.0
+            ],
+            "id": "live_control_fill_handle"
+        },
+        "Default Dark": {
+            "colors": [
+                0.364705882352941,
+                0.364705882352941,
+                0.364705882352941,
+                1.0
+            ],
+            "id": "live_control_fill_handle"
+        },
+        "Riparian": {
+            "colors": [
+                0.376470588235294,
+                0.443137254901961,
+                0.458823529411765,
+                1.0
+            ],
+            "id": "live_control_fill_handle"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.529411764705882,
+                0.529411764705882,
+                0.529411764705882,
+                1.0
+            ],
+            "id": "live_control_fill_handle"
+        },
+        "24 Carat": {
+            "colors": [
+                0.388235294117647,
+                0.376470588235294,
+                0.352941176470588,
+                1.0
+            ],
+            "id": "live_control_fill_handle"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.392156862745098,
+                0.486274509803922,
+                0.737254901960784,
+                1.0
+            ],
+            "id": "live_control_fill_handle"
+        },
+        "Immaterial": {
+            "colors": [
+                0.36078431372549,
+                0.376470588235294,
+                0.411764705882353,
+                1.0
+            ],
+            "id": "live_control_fill_handle"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.776470588235294,
+                0.776470588235294,
+                0.776470588235294,
+                1.0
+            ],
+            "id": "live_control_fill_handle"
+        }
+    },
+    "LCD Background": {
+        "Default Light": {
+            "colors": [
+                0.141176470588235,
+                0.141176470588235,
+                0.141176470588235,
+                1.0
+            ],
+            "id": "live_lcd_bg"
+        },
+        "Default Dark": {
+            "colors": [
+                0.094117647058824,
+                0.094117647058824,
+                0.094117647058824,
+                1.0
+            ],
+            "id": "live_lcd_bg"
+        },
+        "Riparian": {
+            "colors": [
+                0.011764705882353,
+                0.066666666666667,
+                0.090196078431373,
+                1.0
+            ],
+            "id": "live_lcd_bg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.12156862745098,
+                0.12156862745098,
+                0.12156862745098,
+                1.0
+            ],
+            "id": "live_lcd_bg"
+        },
+        "24 Carat": {
+            "colors": [
+                0.07843137254902,
+                0.07843137254902,
+                0.07843137254902,
+                1.0
+            ],
+            "id": "live_lcd_bg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.062745098039216,
+                0.031372549019608,
+                0.149019607843137,
+                1.0
+            ],
+            "id": "live_lcd_bg"
+        },
+        "Immaterial": {
+            "colors": [
+                0.070588235294118,
+                0.07843137254902,
+                0.090196078431373,
+                1.0
+            ],
+            "id": "live_lcd_bg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.113725490196078,
+                0.113725490196078,
+                0.113725490196078,
+                1.0
+            ],
+            "id": "live_lcd_bg"
+        }
+    },
+    "LCD Line": {
+        "Default Light": {
+            "colors": [
+                0.356862745098039,
+                0.356862745098039,
+                0.356862745098039,
+                1.0
+            ],
+            "id": "live_lcd_frame"
+        },
+        "Default Dark": {
+            "colors": [
+                0.243137254901961,
+                0.243137254901961,
+                0.243137254901961,
+                1.0
+            ],
+            "id": "live_lcd_frame"
+        },
+        "Riparian": {
+            "colors": [
+                0.192156862745098,
+                0.262745098039216,
+                0.290196078431373,
+                1.0
+            ],
+            "id": "live_lcd_frame"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.356862745098039,
+                0.356862745098039,
+                0.356862745098039,
+                1.0
+            ],
+            "id": "live_lcd_frame"
+        },
+        "24 Carat": {
+            "colors": [
+                0.23921568627451,
+                0.23921568627451,
+                0.235294117647059,
+                1.0
+            ],
+            "id": "live_lcd_frame"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.247058823529412,
+                0.207843137254902,
+                0.490196078431373,
+                1.0
+            ],
+            "id": "live_lcd_frame"
+        },
+        "Immaterial": {
+            "colors": [
+                0.215686274509804,
+                0.227450980392157,
+                0.254901960784314,
+                1.0
+            ],
+            "id": "live_lcd_frame"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.219607843137255,
+                0.219607843137255,
+                0.219607843137255,
+                1.0
+            ],
+            "id": "live_lcd_frame"
+        }
+    },
+    "LCD Text / Icon": {
+        "Default Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_lcd_control_fg"
+        },
+        "Default Dark": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_lcd_control_fg"
+        },
+        "Riparian": {
+            "colors": [
+                1.0,
+                0.776470588235294,
+                0.345098039215686,
+                1.0
+            ],
+            "id": "live_lcd_control_fg"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                1.0,
+                0.611764705882353,
+                0.223529411764706,
+                1.0
+            ],
+            "id": "live_lcd_control_fg"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_lcd_control_fg"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.709803921568627,
+                1.0,
+                0.388235294117647,
+                1.0
+            ],
+            "id": "live_lcd_control_fg"
+        },
+        "Immaterial": {
+            "colors": [
+                1.0,
+                0.568627450980392,
+                0.764705882352941,
+                1.0
+            ],
+            "id": "live_lcd_control_fg"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_lcd_control_fg"
+        }
+    },
+    "LCD Text / Icon Variant": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_alt"
+        },
+        "Default Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_alt"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.8,
+                0.717647058823529,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_alt"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_alt"
+        },
+        "24 Carat": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_alt"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.768627450980392,
+                0.129411764705882,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_alt"
+        },
+        "Immaterial": {
+            "colors": [
+                0.27843137254902,
+                0.886274509803922,
+                0.956862745098039,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_alt"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_alt"
+        }
+    },
+    "LCD Text / Icon (Inactive)": {
+        "Default Light": {
+            "colors": [
+                0.647058823529412,
+                0.647058823529412,
+                0.647058823529412,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_zombie"
+        },
+        "Default Dark": {
+            "colors": [
+                0.525490196078431,
+                0.525490196078431,
+                0.525490196078431,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_zombie"
+        },
+        "Riparian": {
+            "colors": [
+                0.627450980392157,
+                0.662745098039216,
+                0.619607843137255,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_zombie"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.654901960784314,
+                0.654901960784314,
+                0.654901960784314,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_zombie"
+        },
+        "24 Carat": {
+            "colors": [
+                0.705882352941176,
+                0.603921568627451,
+                0.447058823529412,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_zombie"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.792156862745098,
+                0.819607843137255,
+                0.862745098039216,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_zombie"
+        },
+        "Immaterial": {
+            "colors": [
+                0.576470588235294,
+                0.584313725490196,
+                0.611764705882353,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_zombie"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.447058823529412,
+                0.447058823529412,
+                0.447058823529412,
+                1.0
+            ],
+            "id": "live_lcd_control_fg_zombie"
+        }
+    },
+    "Freeze": {
+        "Default Light": {
+            "colors": [
+                0.262745098039216,
+                0.568627450980392,
+                0.901960784313726,
+                1.0
+            ],
+            "id": "live_freeze_color"
+        },
+        "Default Dark": {
+            "colors": [
+                0.262745098039216,
+                0.568627450980392,
+                0.901960784313726,
+                1.0
+            ],
+            "id": "live_freeze_color"
+        },
+        "Riparian": {
+            "colors": [
+                0.262745098039216,
+                0.568627450980392,
+                0.901960784313726,
+                1.0
+            ],
+            "id": "live_freeze_color"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.262745098039216,
+                0.568627450980392,
+                0.901960784313726,
+                1.0
+            ],
+            "id": "live_freeze_color"
+        },
+        "24 Carat": {
+            "colors": [
+                0.262745098039216,
+                0.568627450980392,
+                0.901960784313726,
+                1.0
+            ],
+            "id": "live_freeze_color"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.262745098039216,
+                0.568627450980392,
+                0.901960784313726,
+                1.0
+            ],
+            "id": "live_freeze_color"
+        },
+        "Immaterial": {
+            "colors": [
+                0.262745098039216,
+                0.568627450980392,
+                0.901960784313726,
+                1.0
+            ],
+            "id": "live_freeze_color"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.262745098039216,
+                0.568627450980392,
+                0.901960784313726,
+                1.0
+            ],
+            "id": "live_freeze_color"
+        }
+    },
+    "Threshold Line": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_threshold_line_color"
+        },
+        "Default Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_threshold_line_color"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.8,
+                0.717647058823529,
+                1.0
+            ],
+            "id": "live_threshold_line_color"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_threshold_line_color"
+        },
+        "24 Carat": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_threshold_line_color"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.768627450980392,
+                0.129411764705882,
+                1.0
+            ],
+            "id": "live_threshold_line_color"
+        },
+        "Immaterial": {
+            "colors": [
+                0.27843137254902,
+                0.886274509803922,
+                0.956862745098039,
+                1.0
+            ],
+            "id": "live_threshold_line_color"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_threshold_line_color"
+        }
+    },
+    "Gain Reduction Line": {
+        "Default Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_gain_reduction_line_color"
+        },
+        "Default Dark": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_gain_reduction_line_color"
+        },
+        "Riparian": {
+            "colors": [
+                1.0,
+                0.776470588235294,
+                0.345098039215686,
+                1.0
+            ],
+            "id": "live_gain_reduction_line_color"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                1.0,
+                0.611764705882353,
+                0.223529411764706,
+                1.0
+            ],
+            "id": "live_gain_reduction_line_color"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_gain_reduction_line_color"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.709803921568627,
+                1.0,
+                0.388235294117647,
+                1.0
+            ],
+            "id": "live_gain_reduction_line_color"
+        },
+        "Immaterial": {
+            "colors": [
+                1.0,
+                0.568627450980392,
+                0.764705882352941,
+                1.0
+            ],
+            "id": "live_gain_reduction_line_color"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_gain_reduction_line_color"
+        }
+    },
+    "Input Curve": {
+        "Default Light": {
+            "colors": [
+                0.737254901960784,
+                0.737254901960784,
+                0.737254901960784,
+                0.329411764705882
+            ],
+            "id": "live_input_curve_color"
+        },
+        "Default Dark": {
+            "colors": [
+                0.325490196078431,
+                0.325490196078431,
+                0.325490196078431,
+                1.0
+            ],
+            "id": "live_input_curve_color"
+        },
+        "Riparian": {
+            "colors": [
+                0.32156862745098,
+                0.392156862745098,
+                0.411764705882353,
+                1.0
+            ],
+            "id": "live_input_curve_color"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.47843137254902,
+                0.47843137254902,
+                0.47843137254902,
+                1.0
+            ],
+            "id": "live_input_curve_color"
+        },
+        "24 Carat": {
+            "colors": [
+                0.345098039215686,
+                0.333333333333333,
+                0.32156862745098,
+                1.0
+            ],
+            "id": "live_input_curve_color"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.337254901960784,
+                0.4,
+                0.694117647058824,
+                1.0
+            ],
+            "id": "live_input_curve_color"
+        },
+        "Immaterial": {
+            "colors": [
+                0.317647058823529,
+                0.329411764705882,
+                0.364705882352941,
+                1.0
+            ],
+            "id": "live_input_curve_color"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.690196078431373,
+                0.690196078431373,
+                0.690196078431373,
+                0.329411764705882
+            ],
+            "id": "live_input_curve_color"
+        }
+    },
+    "Input Curve Outline": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "id": "live_input_curve_outline_color"
+        },
+        "Default Dark": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "id": "live_input_curve_outline_color"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "id": "live_input_curve_outline_color"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "id": "live_input_curve_outline_color"
+        },
+        "24 Carat": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "id": "live_input_curve_outline_color"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "id": "live_input_curve_outline_color"
+        },
+        "Immaterial": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "id": "live_input_curve_outline_color"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "id": "live_input_curve_outline_color"
+        }
+    },
+    "Output Curve": {
+        "Default Light": {
+            "colors": [
+                0.807843137254902,
+                0.807843137254902,
+                0.807843137254902,
+                0.247058823529412
+            ],
+            "id": "live_output_curve_color"
+        },
+        "Default Dark": {
+            "colors": [
+                0.525490196078431,
+                0.525490196078431,
+                0.525490196078431,
+                0.298039215686275
+            ],
+            "id": "live_output_curve_color"
+        },
+        "Riparian": {
+            "colors": [
+                0.631372549019608,
+                0.658823529411765,
+                0.619607843137255,
+                0.298039215686275
+            ],
+            "id": "live_output_curve_color"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.737254901960784,
+                0.737254901960784,
+                0.737254901960784,
+                0.298039215686275
+            ],
+            "id": "live_output_curve_color"
+        },
+        "24 Carat": {
+            "colors": [
+                0.709803921568627,
+                0.603921568627451,
+                0.447058823529412,
+                0.298039215686275
+            ],
+            "id": "live_output_curve_color"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.788235294117647,
+                0.815686274509804,
+                0.866666666666667,
+                0.298039215686275
+            ],
+            "id": "live_output_curve_color"
+        },
+        "Immaterial": {
+            "colors": [
+                0.580392156862745,
+                0.580392156862745,
+                0.603921568627451,
+                0.298039215686275
+            ],
+            "id": "live_output_curve_color"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.776470588235294,
+                0.776470588235294,
+                0.776470588235294,
+                0.247058823529412
+            ],
+            "id": "live_output_curve_color"
+        }
+    },
+    "Output Curve Outline": {
+        "Default Light": {
+            "colors": [
+                0.811764705882353,
+                0.811764705882353,
+                0.811764705882353,
+                1.0
+            ],
+            "id": "live_output_curve_outline_color"
+        },
+        "Default Dark": {
+            "colors": [
+                0.749019607843137,
+                0.749019607843137,
+                0.749019607843137,
+                1.0
+            ],
+            "id": "live_output_curve_outline_color"
+        },
+        "Riparian": {
+            "colors": [
+                0.866666666666667,
+                0.823529411764706,
+                0.666666666666667,
+                1.0
+            ],
+            "id": "live_output_curve_outline_color"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.898039215686275,
+                0.898039215686275,
+                0.898039215686275,
+                1.0
+            ],
+            "id": "live_output_curve_outline_color"
+        },
+        "24 Carat": {
+            "colors": [
+                0.901960784313726,
+                0.807843137254902,
+                0.662745098039216,
+                1.0
+            ],
+            "id": "live_output_curve_outline_color"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.913725490196078,
+                0.917647058823529,
+                0.925490196078431,
+                1.0
+            ],
+            "id": "live_output_curve_outline_color"
+        },
+        "Immaterial": {
+            "colors": [
+                0.831372549019608,
+                0.835294117647059,
+                0.83921568627451,
+                1.0
+            ],
+            "id": "live_output_curve_outline_color"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.776470588235294,
+                0.776470588235294,
+                0.776470588235294,
+                1.0
+            ],
+            "id": "live_output_curve_outline_color"
+        }
+    },
+    "Spectrum": {
+        "Default Light": {
+            "colors": [
+                0.737254901960784,
+                0.737254901960784,
+                0.737254901960784,
+                0.329411764705882
+            ],
+            "id": "live_spectrum_default_color"
+        },
+        "Default Dark": {
+            "colors": [
+                0.325490196078431,
+                0.325490196078431,
+                0.325490196078431,
+                1.0
+            ],
+            "id": "live_spectrum_default_color"
+        },
+        "Riparian": {
+            "colors": [
+                0.32156862745098,
+                0.392156862745098,
+                0.411764705882353,
+                1.0
+            ],
+            "id": "live_spectrum_default_color"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.47843137254902,
+                0.47843137254902,
+                0.47843137254902,
+                1.0
+            ],
+            "id": "live_spectrum_default_color"
+        },
+        "24 Carat": {
+            "colors": [
+                0.345098039215686,
+                0.333333333333333,
+                0.32156862745098,
+                1.0
+            ],
+            "id": "live_spectrum_default_color"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.337254901960784,
+                0.4,
+                0.694117647058824,
+                1.0
+            ],
+            "id": "live_spectrum_default_color"
+        },
+        "Immaterial": {
+            "colors": [
+                0.317647058823529,
+                0.329411764705882,
+                0.364705882352941,
+                1.0
+            ],
+            "id": "live_spectrum_default_color"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.690196078431373,
+                0.690196078431373,
+                0.690196078431373,
+                0.329411764705882
+            ],
+            "id": "live_spectrum_default_color"
+        }
+    },
+    "Spectrum Variant": {
+        "Default Light": {
+            "colors": [
+                0.101960784313725,
+                0.490196078431373,
+                0.945098039215686,
+                1.0
+            ],
+            "id": "live_spectrum_alternative_color"
+        },
+        "Default Dark": {
+            "colors": [
+                0.235294117647059,
+                0.415686274509804,
+                0.713725490196078,
+                1.0
+            ],
+            "id": "live_spectrum_alternative_color"
+        },
+        "Riparian": {
+            "colors": [
+                0.235294117647059,
+                0.415686274509804,
+                0.713725490196078,
+                1.0
+            ],
+            "id": "live_spectrum_alternative_color"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.235294117647059,
+                0.415686274509804,
+                0.713725490196078,
+                1.0
+            ],
+            "id": "live_spectrum_alternative_color"
+        },
+        "24 Carat": {
+            "colors": [
+                0.235294117647059,
+                0.415686274509804,
+                0.713725490196078,
+                1.0
+            ],
+            "id": "live_spectrum_alternative_color"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.235294117647059,
+                0.415686274509804,
+                0.713725490196078,
+                1.0
+            ],
+            "id": "live_spectrum_alternative_color"
+        },
+        "Immaterial": {
+            "colors": [
+                0.235294117647059,
+                0.415686274509804,
+                0.713725490196078,
+                1.0
+            ],
+            "id": "live_spectrum_alternative_color"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.101960784313725,
+                0.490196078431373,
+                0.945098039215686,
+                1.0
+            ],
+            "id": "live_spectrum_alternative_color"
+        }
+    },
+    "Spectrum Grid": {
+        "Default Light": {
+            "colors": [
+                0.650980392156863,
+                0.650980392156863,
+                0.650980392156863,
+                0.247058823529412
+            ],
+            "id": "live_spectrum_grid_lines"
+        },
+        "Default Dark": {
+            "colors": [
+                0.713725490196078,
+                0.713725490196078,
+                0.713725490196078,
+                0.247058823529412
+            ],
+            "id": "live_spectrum_grid_lines"
+        },
+        "Riparian": {
+            "colors": [
+                0.843137254901961,
+                0.807843137254902,
+                0.666666666666667,
+                0.247058823529412
+            ],
+            "id": "live_spectrum_grid_lines"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.874509803921569,
+                0.874509803921569,
+                0.874509803921569,
+                0.247058823529412
+            ],
+            "id": "live_spectrum_grid_lines"
+        },
+        "24 Carat": {
+            "colors": [
+                0.890196078431372,
+                0.776470588235294,
+                0.619607843137255,
+                0.247058823529412
+            ],
+            "id": "live_spectrum_grid_lines"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.905882352941176,
+                0.905882352941176,
+                0.905882352941176,
+                0.247058823529412
+            ],
+            "id": "live_spectrum_grid_lines"
+        },
+        "Immaterial": {
+            "colors": [
+                0.792156862745098,
+                0.792156862745098,
+                0.807843137254902,
+                0.247058823529412
+            ],
+            "id": "live_spectrum_grid_lines"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.572549019607843,
+                0.572549019607843,
+                0.572549019607843,
+                0.247058823529412
+            ],
+            "id": "live_spectrum_grid_lines"
+        }
+    },
+    "LCD Background Text": {
+        "Default Light": {
+            "colors": [
+                0.811764705882353,
+                0.811764705882353,
+                0.811764705882353,
+                0.498039215686275
+            ],
+            "id": "live_display_scale_text"
+        },
+        "Default Dark": {
+            "colors": [
+                0.525490196078431,
+                0.525490196078431,
+                0.525490196078431,
+                1.0
+            ],
+            "id": "live_display_scale_text"
+        },
+        "Riparian": {
+            "colors": [
+                0.627450980392157,
+                0.662745098039216,
+                0.619607843137255,
+                1.0
+            ],
+            "id": "live_display_scale_text"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.737254901960784,
+                0.737254901960784,
+                0.737254901960784,
+                1.0
+            ],
+            "id": "live_display_scale_text"
+        },
+        "24 Carat": {
+            "colors": [
+                0.705882352941176,
+                0.603921568627451,
+                0.447058823529412,
+                1.0
+            ],
+            "id": "live_display_scale_text"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.792156862745098,
+                0.819607843137255,
+                0.862745098039216,
+                1.0
+            ],
+            "id": "live_display_scale_text"
+        },
+        "Immaterial": {
+            "colors": [
+                0.576470588235294,
+                0.584313725490196,
+                0.611764705882353,
+                1.0
+            ],
+            "id": "live_display_scale_text"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.780392156862745,
+                0.780392156862745,
+                0.780392156862745,
+                0.498039215686275
+            ],
+            "id": "live_display_scale_text"
+        }
+    },
+    "LCD Shape": {
+        "Default Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_display_line_one"
+        },
+        "Default Dark": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_display_line_one"
+        },
+        "Riparian": {
+            "colors": [
+                1.0,
+                0.776470588235294,
+                0.345098039215686,
+                1.0
+            ],
+            "id": "live_display_line_one"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                1.0,
+                0.611764705882353,
+                0.223529411764706,
+                1.0
+            ],
+            "id": "live_display_line_one"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_display_line_one"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.709803921568627,
+                1.0,
+                0.388235294117647,
+                1.0
+            ],
+            "id": "live_display_line_one"
+        },
+        "Immaterial": {
+            "colors": [
+                1.0,
+                0.568627450980392,
+                0.764705882352941,
+                1.0
+            ],
+            "id": "live_display_line_one"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_display_line_one"
+        }
+    },
+    "LCD Shape Variant": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_display_line_two"
+        },
+        "Default Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_display_line_two"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.8,
+                0.717647058823529,
+                1.0
+            ],
+            "id": "live_display_line_two"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_display_line_two"
+        },
+        "24 Carat": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_display_line_two"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.768627450980392,
+                0.129411764705882,
+                1.0
+            ],
+            "id": "live_display_line_two"
+        },
+        "Immaterial": {
+            "colors": [
+                0.27843137254902,
+                0.886274509803922,
+                0.956862745098039,
+                1.0
+            ],
+            "id": "live_display_line_two"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_display_line_two"
+        }
+    },
+    "LCD Handle": {
+        "Default Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_display_handle_one"
+        },
+        "Default Dark": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_display_handle_one"
+        },
+        "Riparian": {
+            "colors": [
+                1.0,
+                0.776470588235294,
+                0.345098039215686,
+                1.0
+            ],
+            "id": "live_display_handle_one"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                1.0,
+                0.611764705882353,
+                0.223529411764706,
+                1.0
+            ],
+            "id": "live_display_handle_one"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.67843137254902,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_display_handle_one"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.709803921568627,
+                1.0,
+                0.388235294117647,
+                1.0
+            ],
+            "id": "live_display_handle_one"
+        },
+        "Immaterial": {
+            "colors": [
+                1.0,
+                0.568627450980392,
+                0.764705882352941,
+                1.0
+            ],
+            "id": "live_display_handle_one"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                1.0,
+                0.725490196078431,
+                0.003921568627451,
+                1.0
+            ],
+            "id": "live_display_handle_one"
+        }
+    },
+    "LCD Handle Variant": {
+        "Default Light": {
+            "colors": [
+                0.972549019607843,
+                0.462745098039216,
+                0.501960784313725,
+                1.0
+            ],
+            "id": "live_display_handle_two"
+        },
+        "Default Dark": {
+            "colors": [
+                1.0,
+                0.411764705882353,
+                0.498039215686275,
+                1.0
+            ],
+            "id": "live_display_handle_two"
+        },
+        "Riparian": {
+            "colors": [
+                1.0,
+                0.411764705882353,
+                0.498039215686275,
+                1.0
+            ],
+            "id": "live_display_handle_two"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                1.0,
+                0.411764705882353,
+                0.498039215686275,
+                1.0
+            ],
+            "id": "live_display_handle_two"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.411764705882353,
+                0.498039215686275,
+                1.0
+            ],
+            "id": "live_display_handle_two"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.411764705882353,
+                0.498039215686275,
+                1.0
+            ],
+            "id": "live_display_handle_two"
+        },
+        "Immaterial": {
+            "colors": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "id": "live_display_handle_two"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.972549019607843,
+                0.462745098039216,
+                0.501960784313725,
+                1.0
+            ],
+            "id": "live_display_handle_two"
+        }
+    },
+    "Modulation": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.549019607843137,
+                0.67843137254902,
+                1.0
+            ],
+            "id": "live_modulation"
+        },
+        "Default Dark": {
+            "colors": [
+                0.0,
+                0.603921568627451,
+                0.674509803921569,
+                1.0
+            ],
+            "id": "live_modulation"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.603921568627451,
+                0.674509803921569,
+                1.0
+            ],
+            "id": "live_modulation"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.0,
+                0.603921568627451,
+                0.674509803921569,
+                1.0
+            ],
+            "id": "live_modulation"
+        },
+        "24 Carat": {
+            "colors": [
+                0.0,
+                0.603921568627451,
+                0.674509803921569,
+                1.0
+            ],
+            "id": "live_modulation"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.0,
+                0.729411764705882,
+                0.929411764705882,
+                1.0
+            ],
+            "id": "live_modulation"
+        },
+        "Immaterial": {
+            "colors": [
+                0.0,
+                0.603921568627451,
+                0.674509803921569,
+                1.0
+            ],
+            "id": "live_modulation"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.549019607843137,
+                0.67843137254902,
+                1.0
+            ],
+            "id": "live_modulation"
+        }
+    },
+    "Control Highlight Standby": {
+        "Default Light": {
+            "colors": [
+                0.670588235294118,
+                0.776470588235294,
+                0.796078431372549,
+                1.0
+            ],
+            "id": "live_selection_standby"
+        },
+        "Default Dark": {
+            "colors": [
+                0.388235294117647,
+                0.494117647058824,
+                0.525490196078431,
+                1.0
+            ],
+            "id": "live_selection_standby"
+        },
+        "Riparian": {
+            "colors": [
+                0.411764705882353,
+                0.525490196078431,
+                0.462745098039216,
+                1.0
+            ],
+            "id": "live_selection_standby"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.329411764705882,
+                0.474509803921569,
+                0.517647058823529,
+                1.0
+            ],
+            "id": "live_selection_standby"
+        },
+        "24 Carat": {
+            "colors": [
+                0.572549019607843,
+                0.494117647058824,
+                0.345098039215686,
+                1.0
+            ],
+            "id": "live_selection_standby"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.235294117647059,
+                0.447058823529412,
+                0.588235294117647,
+                1.0
+            ],
+            "id": "live_selection_standby"
+        },
+        "Immaterial": {
+            "colors": [
+                0.415686274509804,
+                0.486274509803922,
+                0.509803921568627,
+                1.0
+            ],
+            "id": "live_selection_standby"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.670588235294118,
+                0.776470588235294,
+                0.796078431372549,
+                1.0
+            ],
+            "id": "live_selection_standby"
+        }
+    },
+    "Text / Icon On Standby": {
+        "Default Light": {
+            "colors": [
+                0.945098039215686,
+                0.674509803921569,
+                0.0,
+                1.0
+            ],
+            "id": "live_control_text_selection_standby"
+        },
+        "Default Dark": {
+            "colors": [
+                0.482352941176471,
+                0.341176470588235,
+                0.196078431372549,
+                1.0
+            ],
+            "id": "live_control_text_selection_standby"
+        },
+        "Riparian": {
+            "colors": [
+                0.47843137254902,
+                0.392156862745098,
+                0.235294117647059,
+                1.0
+            ],
+            "id": "live_control_text_selection_standby"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.47843137254902,
+                0.309803921568627,
+                0.16078431372549,
+                1.0
+            ],
+            "id": "live_control_text_selection_standby"
+        },
+        "24 Carat": {
+            "colors": [
+                0.482352941176471,
+                0.341176470588235,
+                0.196078431372549,
+                1.0
+            ],
+            "id": "live_control_text_selection_standby"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.407843137254902,
+                0.474509803921569,
+                0.352941176470588,
+                1.0
+            ],
+            "id": "live_control_text_selection_standby"
+        },
+        "Immaterial": {
+            "colors": [
+                0.486274509803922,
+                0.286274509803922,
+                0.376470588235294,
+                1.0
+            ],
+            "id": "live_control_text_selection_standby"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.945098039215686,
+                0.674509803921569,
+                0.0,
+                1.0
+            ],
+            "id": "live_control_text_selection_standby"
+        }
+    },
+    "PreListen": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_prelisten"
+        },
+        "Default Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_prelisten"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.8,
+                0.717647058823529,
+                1.0
+            ],
+            "id": "live_prelisten"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_prelisten"
+        },
+        "24 Carat": {
+            "colors": [
+                0.011764705882353,
+                0.764705882352941,
+                0.835294117647059,
+                1.0
+            ],
+            "id": "live_prelisten"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.768627450980392,
+                0.129411764705882,
+                1.0
+            ],
+            "id": "live_prelisten"
+        },
+        "Immaterial": {
+            "colors": [
+                0.27843137254902,
+                0.886274509803922,
+                0.956862745098039,
+                1.0
+            ],
+            "id": "live_prelisten"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.933333333333333,
+                1.0,
+                1.0
+            ],
+            "id": "live_prelisten"
+        }
+    },
+    "Alert": {
+        "Default Light": {
+            "colors": [
+                1.0,
+                0.490196078431373,
+                0.262745098039216,
+                1.0
+            ],
+            "id": "live_alert"
+        },
+        "Default Dark": {
+            "colors": [
+                0.905882352941176,
+                0.411764705882353,
+                0.258823529411765,
+                1.0
+            ],
+            "id": "live_alert"
+        },
+        "Riparian": {
+            "colors": [
+                0.905882352941176,
+                0.411764705882353,
+                0.258823529411765,
+                1.0
+            ],
+            "id": "live_alert"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.905882352941176,
+                0.411764705882353,
+                0.258823529411765,
+                1.0
+            ],
+            "id": "live_alert"
+        },
+        "24 Carat": {
+            "colors": [
+                0.905882352941176,
+                0.411764705882353,
+                0.258823529411765,
+                1.0
+            ],
+            "id": "live_alert"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.043137254901961,
+                0.03921568627451,
+                1.0
+            ],
+            "id": "live_alert"
+        },
+        "Immaterial": {
+            "colors": [
+                0.905882352941176,
+                0.411764705882353,
+                0.258823529411765,
+                1.0
+            ],
+            "id": "live_alert"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                1.0,
+                0.490196078431373,
+                0.262745098039216,
+                1.0
+            ],
+            "id": "live_alert"
+        }
+    },
+    "Surface Frame Focus": {
+        "Default Light": {
+            "colors": [
+                0.431372549019608,
+                0.431372549019608,
+                0.431372549019608,
+                1.0
+            ],
+            "id": "live_surface_frame_focus"
+        },
+        "Default Dark": {
+            "colors": [
+                0.141176470588235,
+                0.141176470588235,
+                0.141176470588235,
+                1.0
+            ],
+            "id": "live_surface_frame_focus"
+        },
+        "Riparian": {
+            "colors": [
+                0.058823529411765,
+                0.125490196078431,
+                0.149019607843137,
+                1.0
+            ],
+            "id": "live_surface_frame_focus"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.164705882352941,
+                0.164705882352941,
+                0.164705882352941,
+                1.0
+            ],
+            "id": "live_surface_frame_focus"
+        },
+        "24 Carat": {
+            "colors": [
+                0.133333333333333,
+                0.133333333333333,
+                0.133333333333333,
+                1.0
+            ],
+            "id": "live_surface_frame_focus"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.133333333333333,
+                0.090196078431373,
+                0.274509803921569,
+                1.0
+            ],
+            "id": "live_surface_frame_focus"
+        },
+        "Immaterial": {
+            "colors": [
+                0.113725490196078,
+                0.12156862745098,
+                0.137254901960784,
+                1.0
+            ],
+            "id": "live_surface_frame_focus"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.337254901960784,
+                0.337254901960784,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_surface_frame_focus"
+        }
+    },
+    "Desktop": {
+        "Default Light": {
+            "colors": [
+                0.505882352941176,
+                0.505882352941176,
+                0.505882352941176,
+                1.0
+            ],
+            "id": "live_desktop"
+        },
+        "Default Dark": {
+            "colors": [
+                0.164705882352941,
+                0.164705882352941,
+                0.164705882352941,
+                1.0
+            ],
+            "id": "live_desktop"
+        },
+        "Riparian": {
+            "colors": [
+                0.086274509803922,
+                0.156862745098039,
+                0.180392156862745,
+                1.0
+            ],
+            "id": "live_desktop"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.223529411764706,
+                0.223529411764706,
+                0.223529411764706,
+                1.0
+            ],
+            "id": "live_desktop"
+        },
+        "24 Carat": {
+            "colors": [
+                0.156862745098039,
+                0.156862745098039,
+                0.156862745098039,
+                1.0
+            ],
+            "id": "live_desktop"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.164705882352941,
+                0.117647058823529,
+                0.329411764705882,
+                1.0
+            ],
+            "id": "live_desktop"
+        },
+        "Immaterial": {
+            "colors": [
+                0.133333333333333,
+                0.141176470588235,
+                0.164705882352941,
+                1.0
+            ],
+            "id": "live_desktop"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.337254901960784,
+                0.337254901960784,
+                0.337254901960784,
+                1.0
+            ],
+            "id": "live_desktop"
+        }
+    },
+    "Record": {
+        "Default Light": {
+            "colors": [
+                1.0,
+                0.349019607843137,
+                0.372549019607843,
+                1.0
+            ],
+            "id": "live_record"
+        },
+        "Default Dark": {
+            "colors": [
+                1.0,
+                0.333333333333333,
+                0.349019607843137,
+                1.0
+            ],
+            "id": "live_record"
+        },
+        "Riparian": {
+            "colors": [
+                1.0,
+                0.333333333333333,
+                0.349019607843137,
+                1.0
+            ],
+            "id": "live_record"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                1.0,
+                0.333333333333333,
+                0.349019607843137,
+                1.0
+            ],
+            "id": "live_record"
+        },
+        "24 Carat": {
+            "colors": [
+                1.0,
+                0.333333333333333,
+                0.349019607843137,
+                1.0
+            ],
+            "id": "live_record"
+        },
+        "Angsty Robot": {
+            "colors": [
+                1.0,
+                0.258823529411765,
+                0.207843137254902,
+                1.0
+            ],
+            "id": "live_record"
+        },
+        "Immaterial": {
+            "colors": [
+                1.0,
+                0.333333333333333,
+                0.349019607843137,
+                1.0
+            ],
+            "id": "live_record"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                1.0,
+                0.349019607843137,
+                0.372549019607843,
+                1.0
+            ],
+            "id": "live_record"
+        }
+    },
+    "LCD Title": {
+        "Default Light": {
+            "colors": [
+                0.811764705882353,
+                0.811764705882353,
+                0.811764705882353,
+                1.0
+            ],
+            "id": "live_lcd_title"
+        },
+        "Default Dark": {
+            "colors": [
+                0.709803921568627,
+                0.709803921568627,
+                0.709803921568627,
+                1.0
+            ],
+            "id": "live_lcd_title"
+        },
+        "Riparian": {
+            "colors": [
+                0.83921568627451,
+                0.803921568627451,
+                0.658823529411765,
+                1.0
+            ],
+            "id": "live_lcd_title"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.87843137254902,
+                0.87843137254902,
+                0.87843137254902,
+                1.0
+            ],
+            "id": "live_lcd_title"
+        },
+        "24 Carat": {
+            "colors": [
+                0.882352941176471,
+                0.776470588235294,
+                0.611764705882353,
+                1.0
+            ],
+            "id": "live_lcd_title"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.898039215686275,
+                0.901960784313726,
+                0.909803921568627,
+                1.0
+            ],
+            "id": "live_lcd_title"
+        },
+        "Immaterial": {
+            "colors": [
+                0.796078431372549,
+                0.796078431372549,
+                0.803921568627451,
+                1.0
+            ],
+            "id": "live_lcd_title"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.776470588235294,
+                0.776470588235294,
+                0.776470588235294,
+                1.0
+            ],
+            "id": "live_lcd_title"
+        }
+    },
+    "Play": {
+        "Default Light": {
+            "colors": [
+                0.0,
+                0.980392156862745,
+                0.63921568627451,
+                1.0
+            ],
+            "id": "live_play"
+        },
+        "Default Dark": {
+            "colors": [
+                0.0,
+                0.827450980392157,
+                0.552941176470588,
+                1.0
+            ],
+            "id": "live_play"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.827450980392157,
+                0.552941176470588,
+                1.0
+            ],
+            "id": "live_play"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.0,
+                0.827450980392157,
+                0.552941176470588,
+                1.0
+            ],
+            "id": "live_play"
+        },
+        "24 Carat": {
+            "colors": [
+                0.0,
+                0.827450980392157,
+                0.552941176470588,
+                1.0
+            ],
+            "id": "live_play"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.0,
+                1.0,
+                0.713725490196078,
+                1.0
+            ],
+            "id": "live_play"
+        },
+        "Immaterial": {
+            "colors": [
+                0.0,
+                0.827450980392157,
+                0.552941176470588,
+                1.0
+            ],
+            "id": "live_play"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.980392156862745,
+                0.63921568627451,
+                1.0
+            ],
+            "id": "live_play"
+        }
+    },
+    "Arranger Grid Tiles": {
+        "Default Light": {
+            "colors": [
+                0.058823529411765,
+                0.058823529411765,
+                0.058823529411765,
+                0.066666666666667
+            ],
+            "id": "live_arranger_grid_tiles"
+        },
+        "Default Dark": {
+            "colors": [
+                0.03921568627451,
+                0.03921568627451,
+                0.03921568627451,
+                0.098039215686275
+            ],
+            "id": "live_arranger_grid_tiles"
+        },
+        "Riparian": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.098039215686275
+            ],
+            "id": "live_arranger_grid_tiles"
+        },
+        "Classic Medium Dark": {
+            "colors": [
+                0.03921568627451,
+                0.03921568627451,
+                0.03921568627451,
+                0.098039215686275
+            ],
+            "id": "live_arranger_grid_tiles"
+        },
+        "24 Carat": {
+            "colors": [
+                0.03921568627451,
+                0.03921568627451,
+                0.03921568627451,
+                0.098039215686275
+            ],
+            "id": "live_arranger_grid_tiles"
+        },
+        "Angsty Robot": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.098039215686275
+            ],
+            "id": "live_arranger_grid_tiles"
+        },
+        "Immaterial": {
+            "colors": [
+                0.03921568627451,
+                0.03921568627451,
+                0.03921568627451,
+                0.098039215686275
+            ],
+            "id": "live_arranger_grid_tiles"
+        },
+        "Classic Medium Light": {
+            "colors": [
+                0.0,
+                0.0,
+                0.0,
+                0.066666666666667
+            ],
+            "id": "live_arranger_grid_tiles"
+        }
+    }
+}
