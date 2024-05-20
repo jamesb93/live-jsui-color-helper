@@ -22,6 +22,15 @@
 			name: 'token',
 			transformer: (rgba: RGBA): string => rgba.id
 		},
+		{
+			name: 'hex',
+			transformer: (rgba: RGBA): string => {
+				const rgba_truncated = truncate_floats(rgba.colors, 3)
+					.map(value => value * 255);
+				const rgba_color = d3.rgb(...rgba_truncated);
+				return rgba_color.formatHex();
+			}
+		},
 		{ 
 			name: 'rgba 255',
 			transformer: (rgba: RGBA): string => {
