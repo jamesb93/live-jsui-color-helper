@@ -9,8 +9,10 @@
 
 <style>
 	main {
+		width: max-content;
 		display: flex;
 		flex-direction: column;
 		gap: 1em;
+		margin: 0 auto;
 	}
 </style>
