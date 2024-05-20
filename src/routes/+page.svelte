@@ -1,8 +1,11 @@
 <script lang='ts'>
 	import { fly } from 'svelte/transition'
-	import { rgba_to_hsla, rgba_to_hex, type RGBA } from '$lib/color'
+	import { ToastNotification, CodeSnippet, SkeletonPlaceholder } from "carbon-components-svelte";
+	import { rgba_to_hsla, rgba_to_hex, rgba_to_hsb, type RGBA } from '$lib/color'
 	import colors from '$lib/data/colors.json'
 	import Fuse from 'fuse.js'
+	import * as d3 from 'd3';
+	import * as hsv from 'd3-hsv';
 
 	const themenames = Object.keys(colors[Object.keys(colors)[0]])
 
@@ -12,44 +15,74 @@
 	})
 
 	let viewables = Object.keys(colors);
+
+	const truncate_floats = (values: number[], precision: number = 2): number[] => {
+    return values.map(value => Number(value.toFixed(precision)));
+}
 	
-	const output_formats = {
-		hsla: (rgba: RGBA): string => {
-			const hsla = rgba_to_hsla(rgba.colors)
-			return `hsla(${hsla[0]}, ${hsla[1]*100}%, ${hsla[2]*100}%, ${hsla[3]})`
+	const output_formats = [
+		{
+			name: 'token',
+			transformer: (rgba: RGBA): string => rgba.id
 		},
-		hex: (rgba: RGBA): string => rgba_to_hex(rgba.colors),
-		rgba: (rgba: RGBA): string => `rgba(${rgba.colors[0]*255}, ${rgba.colors[1]*255}, ${rgba.colors[2]*255}, ${rgba.colors[3]})`,
-		token: (rgba: RGBA): string => rgba.id
-	}
-	let format = Object.keys(output_formats)[0];
+		{ 
+			name: 'rgba 255',
+			transformer: (rgba: RGBA): string => {
+				const mapped = rgba.colors.map((value: number) => value * 255)
+				const rgba_truncated = truncate_floats(mapped, 2)
+				return `rgba(${rgba_truncated[0]}, ${rgba_truncated[1]}, ${rgba_truncated[2]}, ${rgba_truncated[3]})`
+			}
+				
+		},
+		{ 
+			name: 'rgba 0..1',
+			transformer: (rgba: RGBA): string => {
+				const rgba_truncated = truncate_floats(rgba.colors, 2)
+				return `rgba(${rgba_truncated[0]}, ${rgba_truncated[1]}, ${rgba_truncated[2]}, ${rgba_truncated[3]})`
+			}
+				
+		},
+		{
+			name: 'hsla',
+			transformer: (rgba: RGBA): string => {
+				const rgba_truncated = truncate_floats(rgba.colors, 3)
+					.map(value => value * 255);
+				const rgba_color = d3.rgb(...rgba_truncated);
+				const hsla = d3.hsl(rgba_color);
+				hsla.h = isNaN(hsla.h) ? 0 : hsla.h;
+				hsla.s = isNaN(hsla.s) ? 0 : hsla.s;
+				hsla.l = isNaN(hsla.l) ? 0 : hsla.l;
 
-	let show_toast = false
-	const copy = (rgba: RGBA) => {
-		show_toast = false
-		const output = output_formats[format](rgba)
-		navigator.clipboard.writeText(output)
-		// delay 3000 ms then hide toast
-		show_toast = true
-		setTimeout(() => show_toast = false, 3000)
-	}
+				hsla.h = Math.round(hsla.h);
+				hsla.s = Math.round(hsla.s * 100.0);
+				hsla.l = Math.round(hsla.l * 100.0);
 
+				return `hsla(${hsla.h}, ${hsla.s}%, ${hsla.l}%, ${rgba.colors[3]})`;
+			},
+		},
+		{
+			name: 'hsv',
+			transformer: (rgba: RBGA): string => {
+				const rgba_truncated = truncate_floats(rgba.colors, 3).map(value => value * 255)
+				const rgba_color = d3.rgb(...rgba_truncated)
+				const hsv_color = hsv.hsv(rgba_color)
+				hsv_color.h = isNaN(hsv_color.h) ? 0 : hsv_color.h
+				hsv_color.s = isNaN(hsv_color.s) ? 0 : hsv_color.s
+				hsv_color.v = isNaN(hsv_color.v) ? 0 : hsv_color.v
+				
+				hsv_color.h = Math.round(hsv_color.h)
+				hsv_color.s = Math.round(hsv_color.s * 100.0)
+				hsv_color.v = Math.round(hsv_color.v * 100.0)
+
+				return (
+					`hsv(${hsv_color.h}, ${hsv_color.s}%, ${hsv_color.v}%, ${rgba.colors[3]})`
+				)
+			}
+		}
+	]
+
+	$: active_color = Object.values(colors)[0][themenames[0]]
 </script>
-  
-{#if show_toast}
-<div class="toast" transition:fly={{ delay: 250, duration: 300, x: 100, opacity: 0.5 }}>
-	<div>Copied!</div>
-</div>
-{/if}
-
-<div class="format-options">
-    {#each Object.keys(output_formats) as formatKey}
-	<label>
-		<input type="radio" bind:group={format} value={formatKey}>
-		{formatKey.toUpperCase()}
-	</label>
-    {/each}
-</div>
 
 <div class="themenames">
 	<div></div>
@@ -69,26 +102,38 @@
 			<button 
 				class="colorsquare"
 				style="background-color: rgba({themes[themename].colors[0]*255}, {themes[themename].colors[1]*255}, {themes[themename].colors[2]*255}, {themes[themename].colors[3]})"
-				on:click={() => copy(themes[themename])}
+				on:click={() => active_color = themes[themename] }
 			/>
 		{/each}
 		{/if}
 	</div>
     {/each}
 </div>
+
+<div class="copy-code" style="background-color: rgba({active_color.colors[0]*255}, {active_color.colors[1]*255}, {active_color.colors[2]*255}, {active_color.colors[3]})">
+	{#each output_formats as fmt}
+	<CodeSnippet code={ fmt.transformer(active_color) } />
+	{/each}
+</div>
 	
 <style>
-	.toast {
-		position: fixed;
-		top: 20px;
-		right: 10px;
-		padding: 1em;
-		border: 1px solid black;
-		background-color: white;	
-	}
 	#search {
 		width: 100%;
 	}
+	.copy-code {
+		/* font-size: 2em; */
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		background-color: var(--cds-tag-background-gray);
+		padding: 2em;
+		width: 350px;
+		max-width: 500px;
+	}
+
 	.grid {
 		display: flex;
 		flex-direction: column;
@@ -113,7 +158,7 @@
 	}
 
 	.colorsquare {
-		width: 100px;
+		width: 140px;
 		height: 25px;
 		outline: none;
 		border: none;
@@ -126,12 +171,6 @@
 	.colorsquare:hover { 
 		cursor: copy; 
 		outline: 1px solid blue;
-	}
-
-	.format-options {
-		display: flex;
-		gap: 1em;
-		flex-direction: column;
 	}
 </style>
 
