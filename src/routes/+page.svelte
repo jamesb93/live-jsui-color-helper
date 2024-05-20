@@ -1,7 +1,6 @@
 <script lang='ts'>
-	import { fly } from 'svelte/transition'
-	import { ToastNotification, CodeSnippet, SkeletonPlaceholder } from "carbon-components-svelte";
-	import { rgba_to_hsla, rgba_to_hex, rgba_to_hsb, type RGBA } from '$lib/color'
+	import { CodeSnippet, Search } from "carbon-components-svelte";
+	import { type RGBA } from '$lib/color'
 	import colors from '$lib/data/colors.json'
 	import Fuse from 'fuse.js'
 	import * as d3 from 'd3';
@@ -14,11 +13,9 @@
 		threshold: 0.3
 	})
 
-	let viewables = Object.keys(colors);
-
 	const truncate_floats = (values: number[], precision: number = 2): number[] => {
-    return values.map(value => Number(value.toFixed(precision)));
-}
+    	return values.map(value => Number(value.toFixed(precision)));
+	}
 	
 	const output_formats = [
 		{
@@ -82,7 +79,13 @@
 	]
 
 	$: active_color = Object.values(colors)[0][themenames[0]]
+	let search_query = ''
+	$: viewables = search_query !== '' ? fuse.search(search_query).map(({ item }) => item) : Object.keys(colors)
 </script>
+
+<div class="search">
+	<Search bind:value={search_query} />
+</div>
 
 <div class="themenames">
 	<div></div>
@@ -93,8 +96,8 @@
 
 <div class="grid">
     {#each Object.entries(colors) as [tokenname, themes], i}
+	{#if viewables.includes(tokenname)}
 	<div class="token">
-		{#if viewables.includes(tokenname)}
 		<div class="tokenname">
 			{ tokenname }
 		</div>
@@ -105,8 +108,8 @@
 				on:click={() => active_color = themes[themename] }
 			/>
 		{/each}
-		{/if}
 	</div>
+	{/if}
     {/each}
 </div>
 
@@ -117,8 +120,9 @@
 </div>
 	
 <style>
-	#search {
-		width: 100%;
+	.search {
+		margin: 0 auto;
+		max-width: 300px;
 	}
 	.copy-code {
 		/* font-size: 2em; */
